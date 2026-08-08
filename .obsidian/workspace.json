@@ -4,30 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "1fdf876ca3ff7d27",
-        "type": "tabs",
-        "dimension": 68.95306859205776,
-        "children": [
-          {
-            "id": "e32e53dbb6235f48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Estadística/Muestras aleatorias.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Muestras aleatorias"
-            }
-          }
-        ]
-      },
-      {
         "id": "a1be73206b92eef9",
         "type": "tabs",
-        "dimension": 31.046931407942242,
         "children": [
           {
             "id": "2c0d57eb628bb7ad",
@@ -59,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -202,14 +182,17 @@
       "bases:Create new base": false
     }
   },
-  "active": "2c0d57eb628bb7ad",
+  "active": "1c678065dbab8fa0",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "2026-08-08.md",
+    "Probabilidad/Coeficientes binomiales y multinomiales.md",
+    "Probabilidad/Control de calidad.md",
+    "Untitled.base",
     "Estadística/Muestras aleatorias.md",
     "Estadística",
     "Distribución multinomial.md",
-    "Probabilidad/Coeficientes binomiales y multinomiales.md",
     "Probabilidad/Covarianza y Correlación.md",
-    "Probabilidad/Control de calidad.md",
     "Probabilidad/Distribuciones.md",
     "Probabilidad",
     "Fórmula de suma de colas.md",
@@ -230,10 +213,6 @@
     "Distribución Geométrica.md",
     "Distribución Normal.md",
     "Distribución Poisson.md",
-    "Distribuciones.md",
-    "Eventos independientes.md",
-    "Untitled.base",
-    "Untitled.canvas",
     "Imagenes/LanzamienoMoneda.png",
     "Imagenes",
     "Imagenes/TrianguloPascal.png",
