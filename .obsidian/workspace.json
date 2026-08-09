@@ -1,20 +1,20 @@
 {
   "main": {
-    "id": "e8eb2b02733d6ce8",
+    "id": "24c64545ba695783",
     "type": "split",
     "children": [
       {
-        "id": "a1be73206b92eef9",
+        "id": "3a3b5450d2289c6c",
         "type": "tabs",
         "children": [
           {
-            "id": "2c0d57eb628bb7ad",
+            "id": "e05d3d51d106b17e",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -23,15 +23,16 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bf26843b8b0fc237",
+    "id": "b7f63ada1822f350",
     "type": "split",
     "children": [
       {
-        "id": "640cf8eb7f9b09fd",
+        "id": "19222e06e28c1808",
         "type": "tabs",
+        "dimension": 79.3921423276501,
         "children": [
           {
-            "id": "1c678065dbab8fa0",
+            "id": "ddd66d7aa249ed22",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -46,7 +47,7 @@
             }
           },
           {
-            "id": "213c80685326ce20",
+            "id": "0cb5a9c423476fb3",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -63,13 +64,33 @@
             }
           },
           {
-            "id": "9d4cccb9747039e8",
+            "id": "82e643dd72424536",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "61f9a0a6e3af86da",
+        "type": "tabs",
+        "dimension": 20.607857672349887,
+        "children": [
+          {
+            "id": "5d1ee9aef5d2167f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -79,20 +100,21 @@
     "width": 300
   },
   "right": {
-    "id": "93774c3e84ea95ec",
+    "id": "113862d1325c49bd",
     "type": "split",
     "children": [
       {
-        "id": "0ba9d6b2fe52af7b",
+        "id": "3b387272ae035e50",
         "type": "tabs",
+        "dimension": 77.29885057471265,
         "children": [
           {
-            "id": "8d6f9d111411c2ea",
+            "id": "13847b248dca9e84",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variable aleatoria X.md",
+                "file": "Chapter2_Intro/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,25 +124,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Variable aleatoria X"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "5d7877e69854785c",
+            "id": "bcc1fb8ca1ab7ef3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variable aleatoria X.md",
+                "file": "Chapter2_Intro/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Variable aleatoria X"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "d312306f09ac0a0c",
+            "id": "8c2c26b151a8d13d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -135,7 +157,7 @@
             }
           },
           {
-            "id": "0935202ed05c1d88",
+            "id": "c5be0822fe77113f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -149,27 +171,43 @@
             }
           },
           {
-            "id": "707508db184110cd",
+            "id": "6550c2b75d30ac32",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Variable aleatoria X.md",
-                "followCursor": false,
+                "file": "Chapter2_Intro/Intro.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Variable aleatoria X"
+              "title": "Outline"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
+      },
+      {
+        "id": "bb9f56942eed379b",
+        "type": "tabs",
+        "dimension": 22.701149425287355,
+        "children": [
+          {
+            "id": "6f189e73937059d0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,40 +220,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "1c678065dbab8fa0",
+  "active": "ddd66d7aa249ed22",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "2026-08-08.md",
-    "Probabilidad/Coeficientes binomiales y multinomiales.md",
-    "Probabilidad/Control de calidad.md",
-    "Untitled.base",
-    "Estadística/Muestras aleatorias.md",
-    "Estadística",
-    "Distribución multinomial.md",
-    "Probabilidad/Covarianza y Correlación.md",
-    "Probabilidad/Distribuciones.md",
-    "Probabilidad",
-    "Fórmula de suma de colas.md",
-    "Teorema del Límite Central.md",
-    "Covarianza y Correlación.md",
-    "Función generadora de momentos.md",
-    "Ley de los grandes números.md",
-    "Desigualdad de Chabyshev.md",
-    "Desigualdad de Markov.md",
-    "Untitled 1.md",
-    "Varianza y Desviación Estándar.md",
-    "Valor Esperado.md",
-    "Distribuciones Marginal y Condicional.md",
-    "Probabilidad Conjunta.md",
-    "Distribución Chi-Cuadrada.md",
-    "Distribución Exponencial.md",
-    "Distribución Gamma.md",
-    "Distribución Geométrica.md",
-    "Distribución Normal.md",
-    "Distribución Poisson.md",
-    "Imagenes/LanzamienoMoneda.png",
-    "Imagenes",
-    "Imagenes/TrianguloPascal.png",
-    "TriánguloPascal.png"
+    "ISLP.pdf",
+    "Chapter2_Intro/Intro.md"
   ]
 }
