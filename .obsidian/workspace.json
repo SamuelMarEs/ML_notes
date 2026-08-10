@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ee0ec966f97e67e",
+        "id": "2ade087c100a69f1",
         "type": "tabs",
         "children": [
           {
-            "id": "e7c04c642170cefc",
+            "id": "eac6d4902a0f68db",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -217,8 +217,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "ddd66d7aa249ed22",
+  "active": "eac6d4902a0f68db",
   "lastOpenFiles": [
+    "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
+    "ISLP/ISLP.pdf",
+    "Probabilidad/Varianza_DesviacionEstandar.md",
+    "Probabilidad/Covarianza_Correlacion.md",
+    "Estadística/MuestrasAleatorias.md",
     "ISLP/Chapter2_Intro/Prediction.md",
     "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
     "ISLP/Chapter2_Intro/ClassificationSetting.md",
@@ -226,9 +231,7 @@
     "ISLP/Chapter2_Intro/Inference.md",
     "ISLP/Chapter2_Intro/Intro_ISLP.md",
     "Imagenes/Accuracy_vs_Interpretability.png",
-    "Probabilidad/Varianza_DesviacionEstandar.md",
     "Probabilidad/ValorEsperado.md",
-    "Estadística/MuestrasAleatorias.md",
     "Probabilidad/VariableAleatoriaBernoulliBinomial.md",
     "Probabilidad/VariableAleatoria.md",
     "Probabilidad/TeoremaLimiteCentral.md",
@@ -244,9 +247,6 @@
     "Probabilidad/DistribucionPoisson.md",
     "Probabilidad/DistribucionGeometrica.md",
     "Probabilidad/DistribucionGamma.md",
-    "Probabilidad/DistribucionExponencial.md",
-    "Probabilidad/DistribucionesMarginalCondicional.md",
-    "Probabilidad/Distribuciones.md",
     "ISLP.pdf"
   ]
 }
