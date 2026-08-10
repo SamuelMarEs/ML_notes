@@ -1,4 +1,4 @@
-La función generadora de momentos, es una función que lleva al [[Valor Esperado]], la [[Varianza y Desviación Estándar]], y así en adelante.:
+La función generadora de momentos, es una función que lleva a la [[ValorEsperado|media]], la [[Varianza_DesviacionEstandar|varianza]], y así en adelante a los siguientes "*momentos*":
 $$ \text{media: } E(X) = \mu, \qquad \text{varianza: } E(X^2) - [E(X)]^2 = \sigma^2, \qquad \text{"momentos": } E(X^n). $$
 
 $$ m(t) = \begin{cases}
@@ -6,7 +6,7 @@ $$ m(t) = \begin{cases}
 \displaystyle\int_{-\infty}^{\infty} e^{tx}\,f(x)\,dx, & X \text{ continua}
 \end{cases}
 \quad \to \text{Transformada de Laplace.} $$
-Esta función es importante pues da un método de encontrar los momentos de cualquier [[Variable aleatoria]].
+Esta función es importante pues da un método de encontrar los momentos de cualquier [[VariableAleatoria|variable aleatoria]].
 
 ### **Teorema:** 
 Dada la función generadora de momentos, $m^{(n)}(0) = E(X^n)$.
@@ -83,3 +83,5 @@ $$
 m_Z(t) = E(e^{tZ}) &= E\!\left(e^{t(X+Y)}\right) = E\!\left(e^{tX}\,e^{tY}\right) = E(e^{tX})\,E(e^{tY}) = m_X(t)\,m_Y(t). \qquad \square
 \end{align*} 
 $$
+
+#probability #calculus #mean #variance

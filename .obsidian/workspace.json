@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3a3b5450d2289c6c",
+        "id": "1b8b2afaf11febd3",
         "type": "tabs",
         "children": [
           {
-            "id": "e05d3d51d106b17e",
+            "id": "8a28ad7dda4ae2ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISLP/Chapter2_Intro/Intro.md",
+                "file": "ISLP/Chapter2_Intro/Intro_ISLP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro"
+              "title": "Intro_ISLP"
             }
           }
         ]
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#combinatorics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +110,7 @@
       {
         "id": "3b387272ae035e50",
         "type": "tabs",
-        "dimension": 73.70689655172413,
+        "dimension": 73.70689655172414,
         "children": [
           {
             "id": "13847b248dca9e84",
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Chapter2_Intro/Intro.md",
+                "file": "ISLP/Chapter2_Intro/Intro_ISLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Chapter2_Intro/Intro.md",
+                "file": "ISLP/Chapter2_Intro/Intro_ISLP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Chapter2_Intro/Intro.md",
+                "file": "ISLP/Chapter2_Intro/Intro_ISLP.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -195,7 +195,7 @@
       {
         "id": "bb9f56942eed379b",
         "type": "tabs",
-        "dimension": 26.29310344827586,
+        "dimension": 26.293103448275865,
         "children": [
           {
             "id": "6f189e73937059d0",
@@ -224,9 +224,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "e05d3d51d106b17e",
+  "active": "8a28ad7dda4ae2ce",
   "lastOpenFiles": [
-    "ISLP.pdf",
-    "Chapter2_Intro/Intro.md"
+    "Pasted image 20260809183555.png",
+    "ISLP/Chapter2_Intro/Inference.md",
+    "ISLP/Chapter2_Intro/Intro_ISLP.md",
+    "ISLP/Chapter2_Intro/Prediction.md",
+    "Probabilidad/Varianza_DesviacionEstandar.md",
+    "Probabilidad/ValorEsperado.md",
+    "Estadística/MuestrasAleatorias.md",
+    "Probabilidad/VariableAleatoriaBernoulliBinomial.md",
+    "Probabilidad/VariableAleatoria.md",
+    "Probabilidad/TeoremaLimiteCentral.md",
+    "Probabilidad/TeoremaBayes.md",
+    "Probabilidad/ProbabilidadConjunta.md",
+    "Probabilidad/ProbabilidadCondicional.md",
+    "Probabilidad/LeyDeGrandesNumeros.md",
+    "Probabilidad/FunciónGeneradoraDeMomentos.md",
+    "Probabilidad/FuncionesDeVariableAleatoria.md",
+    "Probabilidad/FormulaDeSumaDeColas.md",
+    "Probabilidad/EventosIndependientes.md",
+    "Probabilidad/DistribucionNormal.md",
+    "Probabilidad/DistribucionPoisson.md",
+    "Probabilidad/DistribucionGeometrica.md",
+    "Probabilidad/DistribucionGamma.md",
+    "Probabilidad/DistribucionExponencial.md",
+    "Probabilidad/DistribucionesMarginalCondicional.md",
+    "Probabilidad/Distribuciones.md",
+    "Probabilidad/DistribucionChi-Cuadrada.md",
+    "ISLP.pdf"
   ]
 }

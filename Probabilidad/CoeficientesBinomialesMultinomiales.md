@@ -13,7 +13,7 @@ $$
 Triángulo de Pascal (coeficiente $n$):
 ![[TrianguloPascal.png]]
 
-En este coeficiente $\binom{n}{k}$ se basa la distribución binomial ([[V.A. Bernoulli y binomial]]).
+En este coeficiente $\binom{n}{k}$ se basa la distribución [[VariableAleatoriaBernoulliBinomial|binomial]].
 ## Coeficiente Multinomial
 
 $n$ objetos divididos en $r$ clases de tamaño $n_1, n_2, \ldots, n_r$ (el orden no importa).
@@ -38,4 +38,6 @@ $$
 $$
 = \frac{n!}{n_1!\, n_2!\, \cdots\, n_r!} \qquad (\text{ya que } 0! = 1).
 $$
-En este coeficiente se basa la [[Distribución multinomial]].
+En este coeficiente se basa la [[DistribucionMultinomial|distribución multinomial]].
+
+#probability #combinatorics

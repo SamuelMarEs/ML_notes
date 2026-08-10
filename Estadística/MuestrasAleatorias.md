@@ -1,4 +1,4 @@
-Dada una **población** grande $\{x_1, ... ,x_N\}$ con media $\mu$ y varianza $\sigma^2$, vamos a crear una **muestra** $\{X_1, ..., X_n\}$, que es un subconjunto de la población, de tamaño $n$. Cada una de estas muestras es una [[Variable aleatoria]]. 
+Dada una **población** grande $\{x_1, ... ,x_N\}$ con media $\mu$ y varianza $\sigma^2$, vamos a crear una **muestra** $\{X_1, ..., X_n\}$, que es un subconjunto de la población, de tamaño $n$. Cada una de estas muestras es una [[VariableAleatoria|variable aleatoria]]. 
 La idea de la estadística es preguntarnos, ¿podemos inferir algo sobre la **población** en base a la **muestra aleatoria**?
 
 Para la **población** tenemos las siguientes "estadísticas":
@@ -45,3 +45,5 @@ Entonces tenemos que
 $$
 	E\left( \frac{n(N-1)}{N(n-1)} \hat{\sigma}^{2} \right) = \sigma^{2}.
 $$
+
+#statistics #mean #variance 

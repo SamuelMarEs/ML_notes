@@ -1,5 +1,5 @@
 Una variable aleatoria $X$ es un número que puede tomar el resultado de un experimento.
-Entonces $P(X)$ es una función llamada **distribución**, que necesita:
+Entonces $P(X)$ es una función llamada **[[Distribuciones|distribución]]**, que necesita:
 
 a) Valores de $X$ (Dominio).  
 b) Probabilidad $p$ para cada valor de $X$.     **PDF**: *Probability Density Function*.
@@ -12,6 +12,7 @@ $$
 ![[LanzamienoMoneda.png]]
 
 
+#probability #combinatorics
 
 
 

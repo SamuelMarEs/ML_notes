@@ -1,10 +1,10 @@
-Una distribución o [[Variable aleatoria]] Gamma representa la probabilidad de que se produzca un tiempo de espera $t$ para el $r$-ésimo evento:
+Una distribución o [[VariableAleatoria|variable aleatoria]] Gamma representa la probabilidad de que se produzca un tiempo de espera $t$ para el $r$-ésimo evento:
 
 $$ T_r = w_1 + w_2 + \cdots + w_r, \qquad T_r \sim \text{gamma}(r, \lambda). $$
 
 $$ \underbrace{P(T_r > t)}_{\text{gamma}} = \underbrace{P(N_t \leq r-1)}_{\text{Poisson}}. $$
 
-Está estrechamente relacionada con la [[Distribución Poisson]]. La probabilidad Poisson en este caso se refiere a la probabilidad de tener menos de $r$ eventos en el tiempo $t$. $T_r$ significa que el tiempo para el evento $r$ sea mayor a $t$.
+Está estrechamente relacionada con la [[DistribucionPoisson|distribución Poisson]]. La probabilidad Poisson en este caso se refiere a la probabilidad de tener menos de $r$ eventos en el tiempo $t$. $T_r$ significa que el tiempo para el evento $r$ sea mayor a $t$.
 
 $$ P(N_t \leq r-1) = \sum_{k=0}^{r-1} \frac{e^{-\lambda t}(\lambda t)^k}{k!} \quad \leftarrow \text{Esta es una CDF.} $$
 
@@ -21,3 +21,5 @@ Es decir que
 $$ T_r \sim \text{gamma}\!\left(3,\; \frac{1}{15}\right), $$
 
 donde $r = 3$ y $\lambda = \dfrac{1}{15}$.
+
+#probability #distribution 

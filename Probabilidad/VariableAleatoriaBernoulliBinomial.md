@@ -1,4 +1,4 @@
-Una [[Variable aleatoria]] de distribución *Bernoulli* solo puede tomar dos valores.
+Una [[VariableAleatoria|variable aleatoria]] de distribución *Bernoulli* solo puede tomar dos valores.
 Rango $= \{0, 1\}$ (cuando *no* sucede / cuando *sí* sucede):
 $$
 P(X=0) = 1 - p = q \quad \to \text{prob. de que no pase.}
@@ -7,7 +7,7 @@ $$
 P(X=1) = p \quad \to \text{prob. de que pase.}
 $$
 
-Una variable aleatoria de distribución **Binomial** es como "juntar" varias distribuciones Bernoulli.
+Una variable aleatoria de distribución *Binomial* es como "juntar" varias distribuciones Bernoulli.
 Si se realizan $n$ intentos $(B_1, \ldots, B_n)$ con distribución Bernoulli, sea $X$ el número total de casos positivos:
 $$
 X = B_1 + \cdots + B_n, \qquad X \sim \text{binomial}(n, p) \quad \text{(parámetros)}.
@@ -38,3 +38,5 @@ Tenemos que $n=12$, $k=3$, $p=\tfrac{1}{6}$, $q=(1-p)=\tfrac{5}{6}$. Dado que $X
 $$
 P(X=3) = \binom{n}{k} p^k\, q^{n-k} = \binom{12}{3}\left(\frac{1}{6}\right)^3\!\left(\frac{5}{6}\right)^9 \approx 0.1973.
 $$
+
+#probability #distribution #combinatorics 

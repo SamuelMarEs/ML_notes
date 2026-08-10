@@ -1,4 +1,4 @@
-Una [[Variable aleatoria]] que sigue una distribución normal, se puede decir que es el límite de la distribución binomial ([[V.A. Bernoulli y binomial]]).
+Una [[VariableAleatoria|variable aleatoria]] que sigue una distribución normal, se puede decir que es el límite de la distribución [[VariableAleatoriaBernoulliBinomial|binomial]] cuando esta tiende a $\infty$.
 
 (Para $n$ grande y $npq$ no muy pequeño.)
 
@@ -16,7 +16,7 @@ P(X = x) = \frac{1}{\sqrt{2\pi}\,\sigma}\,e^{-\frac{(x-\mu)^2}{2\sigma^2}}.
 $$
 Se suele escribir $N(\mu, \sigma^2)$, donde $\mu$ es la media/mediana y $\sigma^2$ es la varianza cuadrática/desviación estándar cuadrada.
 
-Para $p$ ó $q$ pequeños, la distribución normal comienza a dar valores negativos, que no es físicamente posible. Para esto existe la [[Distribución Poisson]].
+Para $p$ ó $q$ pequeños, la distribución normal comienza a dar valores negativos, que no es físicamente posible. Para esto existe la [[DistribucionPoisson|distribución Poisson]].
 
 ### Distribución Normal Estándar / Unidad Normal
 
@@ -61,3 +61,5 @@ $$
 $$
 = \Phi(230) - \Phi(190), \qquad \text{donde } \Phi(y) = \int_{-\infty}^{y} f(\theta)\,d\theta.
 $$
+
+#probability #distribution #mean #variance

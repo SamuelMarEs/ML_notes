@@ -1,4 +1,4 @@
-Una [[Variable aleatoria]] que sigue una distribución exponencial es usada para estimar el tiempo para que un evento raro ([[Distribución Poisson]]) ocurra.
+Una [[VariableAleatoria|variable aleatoria]] que sigue una distribución exponencial es usada para estimar el tiempo para que un evento raro ([[DistribucionPoisson|evento Poisson]]) ocurra.
 Sea $T$ un tiempo aleatorio, decimos que $T \sim \text{exponencial}(\lambda)$ si:
 
 $$
@@ -99,3 +99,5 @@ Este es un proceso Poisson, donde tenemos:
 $$ P(K = 0 \text{ en } t \text{ min}) = \frac{\lambda^0\, e^{-\lambda t}}{0!} = e^{-5t}. $$
 
 El ejemplo sirve para mostrar la relación entre eventos exponenciales y Poisson.
+
+#probability #distribution #calculus 

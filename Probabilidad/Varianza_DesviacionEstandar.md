@@ -1,4 +1,4 @@
-Si el [[Valor Esperado]] $\mu = E(X)$ mide el "centro de masa" de una PDF para una [[Variable aleatoria]] $X$, entonces la varianza $\text{Var}(X)$ mide el promedio del cuadrado de las desviaciones (qué tan lejos está) de $X$ respecto a $\mu$.
+Si el [[ValorEsperado|valor esperado]] $\mu = E(X)$ mide el "centro de masa" de una PDF para una [[VariableAleatoria|variable aleatoria]] $X$, entonces la varianza $\text{Var}(X)$ mide el promedio del cuadrado de las desviaciones (qué tan lejos está) de $X$ respecto a $\mu$.
 
 La desviación estándar $\text{SD}(X)$ mide la "extensión" del histograma:
 
@@ -23,7 +23,7 @@ $$
 Desviación estándar: $\text{SD}(X) = \sigma$ y $\text{Var}(X) = \sigma^2$.
 
 ### Ejemplo: $T \sim \text{exponencial}(\lambda)$, $f(t) = \lambda e^{-\lambda t}$
-En este ejemplo tenemos una [[Distribución Exponencial]], y vamos a calcular la media, varianza, desviación estándar y mediana
+En este ejemplo tenemos una [[DistribucionExponencial|distribución exponencial]], y vamos a calcular la media, varianza, desviación estándar y mediana
 #### **Media:**
 
 $$ E(T) = \int_{-\infty}^{\infty} t\,f(t)\,dt = \int_0^{\infty} t\,\lambda e^{-\lambda t}\,dt. $$
@@ -104,3 +104,5 @@ Cambio de variable $u = \dfrac{x^2}{2\sigma^2}$:
 $$ \cdots = \frac{2m\sigma^2}{\sqrt{\pi}}\int_0^{\infty} u^{3/2}\,e^{-u}\,du = \frac{2m\sigma^2}{\sqrt{\pi}}\,\Gamma\!\left(\frac{5}{2}\right) \quad \to \text{función gamma.} $$
 
 $$ \cdots = \frac{3}{2}m\sigma^2. \qquad \text{(Temperatura del gas.)} $$
+
+#probability #mean #variance #calculus 

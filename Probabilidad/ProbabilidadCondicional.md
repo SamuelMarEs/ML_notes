@@ -1,6 +1,6 @@
 ## Probabilidad Condicional
 
-Sean $A$, $B$ dos eventos posibles en un experimento aleatorio. ¿Cuál es la probabilidad de $A$ *dado* $B$? Es decir, $B$ ya ocurrió.
+Sean $A$, $B$ dos eventos posibles en un experimento aleatorio. ¿Cuál es la probabilidad de $A$ dado $B$? Es decir, $B$ ya ocurrió.
 
 $$
 \Rightarrow P(A \mid B) = \frac{P(A \cap B)}{P(B)}
@@ -31,10 +31,12 @@ $$
 
 ## Ley de Probabilidad Total
 
-Sea $\Omega = \displaystyle\bigcup_{i=1}^{n} B_i$ (o sea, $\Omega$ tiene una partición en $B_1, B_2, \ldots, B_n$), tal que $B_i \cap B_j = \varnothing$ si $i \neq j$.
+Sea $\Omega = \displaystyle\bigcup_{i=1}^{n} B_i$ tal que $B_i \cap B_j = \varnothing$ si $i \neq j$. (O sea, $\Omega$ tiene una partición en $B_1, B_2, \ldots, B_n$).
 
 Entonces la probabilidad de un evento $A$ está dada por:
 
 $$
 P(A) = \sum_{i=1}^{n} P(A \mid B_i)\, P(B_i) = \sum_{i=1}^{n} P(A \cap B_i).
 $$
+
+#probability 

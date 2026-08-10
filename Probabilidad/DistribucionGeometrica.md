@@ -1,4 +1,4 @@
-La distribución geométrica se utiliza para calcular la probabilidad del primer "éxito" en $n$ intentos  bajo una distribución Bernoulli ([[V.A. Bernoulli y binomial]]). Es decir, dada una secuencia de eventos Bernoulli con probabilidad $p$, ¿cuál es la probabilidad de que el primer éxito ocurra en el $n$-ésimo intento? $\to$ ([[Eventos independientes]])
+La distribución geométrica se utiliza para calcular la probabilidad del primer "éxito" en $n$ intentos bajo una distribución [[VariableAleatoriaBernoulliBinomial|Bernoulli]]. Es decir, dada una secuencia de eventos Bernoulli con probabilidad $p$, ¿cuál es la probabilidad de que el primer éxito ocurra en el $n$-ésimo intento? (Asumiendo que sean [[EventosIndependientes|eventos independientes]])
 
 $$
 \begin{aligned}
@@ -11,7 +11,7 @@ P(\text{primer éxito en $n$-ésimo intento})
 \end{aligned}
 $$
 
-Entonces, dada una [[Variable aleatoria]], decimos que $X \sim \text{geométrica}(p) \iff P(X = k) = (1-p)^{k-1}\,p$.
+Entonces, dada una [[VariableAleatoria|variable aleatoria]], decimos que $X \sim \text{geométrica}(p) \iff P(X = k) = (1-p)^{k-1}\,p$.
 
 **Ejemplo:** ¿Cuál es la probabilidad de que tome *al menos* 10 lanzamientos de dado para sacar 5?
 **Forma 1:**
@@ -32,3 +32,5 @@ $$
 $$
 = \frac{5}{6}\cdot\frac{5}{6}\cdots\frac{5}{6} = \left(\frac{5}{6}\right)^9.
 $$
+
+#probability #distribution #calculus 

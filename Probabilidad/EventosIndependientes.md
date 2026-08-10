@@ -4,7 +4,7 @@ P(A \mid B) = P(A), \qquad \text{y} \qquad P(B \mid A) = P(B).
 $$
 
 **Corolario:** $P(A \cap B) = P(A) \cdot P(B)$.
-Este corolario bastante sencillo está basado en la [[Probabilidad condicional]].
+Este corolario bastante sencillo está basado en la definición de [[ProbabilidadCondicional|probabilidad condicional]].
 **Demostración:**
 
 Como $P(A) = P(A \mid B) \Rightarrow P(A) = \dfrac{P(A \cap B)}{P(B)} \Rightarrow P(A)\,P(B) = P(A \cap B)$. $\quad\square$
@@ -21,3 +21,5 @@ $$
 $$
 P(A \mid B) = \frac{1}{4}, \qquad P(B \mid A) = \frac{1}{13}.
 $$
+
+#probability 

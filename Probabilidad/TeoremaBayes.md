@@ -1,4 +1,4 @@
-El *Teorema de Bayes* es un teorema importante sobre la [[Probabilidad condicional]].
+El *Teorema de Bayes* es un teorema importante sobre la [[ProbabilidadCondicional|probabilidad condicional]].
 Sabemos que
 $$
 P(A \mid B) = \frac{P(A \cap B)}{P(B)}, \qquad \text{y que} \qquad P(A \cap B) = P(A \mid B)\,P(B).
@@ -68,3 +68,5 @@ $$
 P(\text{usa} \mid +) = \frac{P(+ \mid u)\,P(u)}{P(+ \mid u)\,P(u) + P(+ \mid \text{no})\,P(\text{no})}
 = \frac{(0.9)(0.1)}{(0.9)(0.1) + (0.2)(0.9)} = \frac{1}{3}.
 $$
+
+#probability #theorem

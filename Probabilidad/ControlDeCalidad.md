@@ -14,10 +14,12 @@ $$
 \Rightarrow P(m \text{ defectuosos en } r \text{ muestras}) = \frac{\dbinom{K}{m}\dbinom{n-K}{r-m}}{\dbinom{n}{r}}
 $$
 
-**Generalización: [[Distribución multinomial]].**
+**Generalización: [[DistribucionMultinomial|Distribución Multinomial]].**
 
 Sea $N = G + B$ con $\binom{G=\text{good}}{B=\text{bad}}$ y $n = g + b$:
 
 $$
 P = \frac{\dbinom{G}{g} \cdot \dbinom{B}{b}}{\dbinom{N}{n}}
 $$
+
+#probability #combinatorics 

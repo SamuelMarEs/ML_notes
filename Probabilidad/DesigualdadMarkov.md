@@ -1,4 +1,4 @@
-Resultado importante para probar la [[Desigualdad de Chabyshev]].
+Resultado importante para probar la [[DesigualdadChabyshev|desigualdad de Chabyshev]].
 
 Sea $X \geq 0$, entonces:
 $$ P(X \geq a) \leq \frac{E(X)}{a}. $$
@@ -11,3 +11,5 @@ $$ E(X) = \sum_x x\,P(X=x) \geq \sum_{x \geq a} x\,P(X=x) \geq \sum_{x \geq a} a
 por lo tanto $\dfrac{E(X)}{a} \geq P(X \geq a)$. $\quad\square$
 
 **Ejemplo:** Supongamos $E(X) = 10$, entonces $P(X \geq 20) \leq \dfrac{1}{2}$.
+
+#probability #theorem #mean 

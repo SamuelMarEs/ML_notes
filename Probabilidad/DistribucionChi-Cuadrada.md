@@ -1,4 +1,4 @@
-Sea $X \sim N(0,1)$ ([[Distribución Normal]]) una [[Variable aleatoria]], y $Y = X^2$; decimos que $Y$ sigue una distribución **Chi-cuadrada**. Muy usada en estadística.
+Sea $X \sim N(0,1)$ ([[DistribucionNormal|distribución normal]]) una [[VariableAleatoria|variable aleatoria]], y $Y = X^2$; decimos que $Y$ sigue una distribución **Chi-cuadrada**. Muy usada en estadística.
 
 Sea $F_Y$ la CDF de $Y$, entonces:
 
@@ -25,3 +25,5 @@ $$ f_Y(y) = y^{-1/2}\,\Phi'(\sqrt{y}) = y^{-1/2}\,f_X(\sqrt{y}). $$
 Como $X \sim N(0,1) \Rightarrow f_X(y) = \dfrac{1}{\sqrt{2\pi}}\,e^{-y/2}$, entonces:
 
 $$ f_Y(y) = \frac{y^{-1/2}\,e^{-y/2}}{\sqrt{2\pi}}. \qquad (\Rightarrow Y \sim N(0, \sqrt{y})\text{?}) $$
+
+#probability #distribution

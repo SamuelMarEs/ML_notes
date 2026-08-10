@@ -1,4 +1,4 @@
-Sea $X$ una [[Variable aleatoria]]. Una función de variable aleatoria $X$ es una nueva variable aleatoria $Y = g(X)$.
+Sea $X$ una [[VariableAleatoria|variable aleatoria]]. Una función de variable aleatoria $X$ es una nueva variable aleatoria $Y = g(X)$.
 
 Suponga que $X$ tiene una PDF $f_X$ y una CDF $F_X = P(X < x) = \displaystyle\int_{-\infty}^{x} f_X(t)\,dt$.
 
@@ -29,10 +29,12 @@ $$
 
 A partir de esto es posible derivar que $Y \sim N(a\mu + b,\; a^2\sigma^2)$.
 
-### "Reescalado" de la [[Distribución Normal]] a $\mu=0$ y $\sigma=1$
+### "Reescalado" de la [[DistribucionNormal|distribución normal]] a $\mu=0$ y $\sigma=1$
 
 Si tenemos una variable aleatoria $X \sim N(\mu, \sigma^2)$, podemos "trasladarla" a una variable con distribución $N(0,1)$.
 
 Hoy en día, con el desarrollo de las computadoras, no suele ser necesario. La "función" que suele servir para esto es:
 
 $$ \overline{Y} = \frac{X - \mu}{\sigma} \implies a = \frac{1}{\sigma},\quad b = -\frac{\mu}{\sigma}. $$
+
+#probability 

@@ -1,15 +1,15 @@
-Dada una secuencia de $n$ [[Variable aleatoria]]s independientes y con [[Distribuciones]] idénticas $X_1, X_2, \ldots, X_n$ tal que su [[Valor Esperado]] $E(X_i) = \mu$ y su [[Varianza y Desviación Estándar]] $\text{Var}(X_i) = \sigma^2$. Entonces la media muestral
+Dada una secuencia de $n$ [[VariableAleatoria|variables aleatorias]] independientes y con [[Distribuciones|distribuciones]] idénticas $X_1, X_2, \ldots, X_n$ tal que su [[ValorEsperado|media]] es $E(X_i) = \mu$ y su [[Varianza_DesviacionEstandar|varianza]] $\text{Var}(X_i) = \sigma^2$. Entonces la media muestral
 
 $$ \bar{X}_n = \frac{1}{n}\sum_{i=1}^{n} X_i $$
 
-va a seguir una [[Distribución Normal]], es decir que
+va a seguir una [[DistribucionNormal|distribución normal]], es decir que
 
 $$ \bar{X}_n \sim N\!\left(\mu,\, \frac{\sigma^2}{n}\right). \qquad \left(\text{SD} = \frac{\sigma}{\sqrt{n}}\right) $$
 
 Otra forma de plantear el teorema: Sea $S_n$ la suma de las variables aleatorias,
 
 $$ S_n = \sum_{i=1}^{n} X_i, \quad \text{entonces} \quad S_n \sim N(n\mu,\, n\sigma^2). $$
-Para la demostración, se utiliza la [[Función generadora de momentos]], y la [[Ley de los grandes números]], fundamentada en la [[Desigualdad de Markov]] y la [[Desigualdad de Chabyshev]]. Además entran conceptos de vital importancia como las [[Funciones de una variable aleatoria]]
+Para la demostración, se utiliza la [[FunciónGeneradoraDeMomentos|función generadora de momentos]], y la [[LeyDeGrandesNumeros|ley de grandes números]], fundamentada en la [[DesigualdadMarkov|desigualdad de Markox]] y la [[DesigualdadChabyshev|desigualdad de Chabyshev]]. Además entran conceptos de vital importancia como las [[FuncionesDeVariableAleatoria|funciones de variable aleatoria]].
 Una forma un poco más formal de plantear el teorema es como sigue:
 
 ### **Teorema:** 
@@ -19,7 +19,7 @@ $$ \lim_{n\to\infty} P\!\left(\frac{S_n}{\sigma\sqrt{n}} \leq x\right) = \Phi(x)
 
 Enunciados equivalentes: $S_n \sim N(0, n\sigma^2)$, ó $\dfrac{1}{\sigma\sqrt{n}}S_n = \bar{X} \sim N(0, \sigma^2/n)$.
 
-## **Demostración:**
+### **Demostración:**
 
 **Paso 1:** Queremos mostrar que $Z = \dfrac{S_n}{\sigma\sqrt{n}} \sim N(0,1)$. Vamos a mostrar que tienen la misma función generadora de momentos. $m(t)$ para $N(0,1)$ es $e^{t^2/2}$.
 
@@ -60,7 +60,8 @@ pues $\varepsilon_n$ tiende a cero.
 Entonces, sea $u = \dfrac{2n}{t^2}$; si $n\to\infty$ entonces $u\to\infty$, $\dfrac{t^2}{2n} = \dfrac{1}{u}$ y $n = \dfrac{t^2}{2}u$.
 
 Por lo tanto nos queda el siguiente límite:
-
 $$ = \lim_{u\to\infty}\left(1 + \frac{1}{u}\right)^{\frac{t^2}{2}u}
 = \left[\lim_{u\to\infty}\left(1 + \frac{1}{u}\right)^u\right]^{t^2/2}
 = e^{t^2/2}. \qquad \square $$
+
+#probability #calculus #theorem #mean #variance #distribution 

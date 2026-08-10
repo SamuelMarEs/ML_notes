@@ -1,7 +1,7 @@
 # Covarianza
 
-La covarianza es una métrica de [[Probabilidad Conjunta]].
-La covarianza mide cómo varían de forma conjunta dos [[Variable aleatoria]]s:
+La covarianza es una métrica de [[ProbabilidadConjunta|probabilidad conjunta]].
+La covarianza mide cómo varían de forma conjunta dos [[VariableAleatoria|variables aleatorias]]:
 
 $$ \text{Cov}(X, Y) = E\!\left[(X - \mu_X)(Y - \mu_Y)\right]. $$
 
@@ -33,3 +33,5 @@ La correlación de $X$ y $Y$ se define como:
 $$ \text{Corr}(X,Y) = \frac{\text{Cov}(X,Y)}{\text{SD}(X)\,\text{SD}(Y)} = \frac{\sigma_{XY}}{\sigma_X\,\sigma_Y}. $$
 
 Una propiedad es que $\text{Corr}(aX+b,\, cY+d) = \text{Corr}(X,Y)$.
+
+#probability #mean #variance 

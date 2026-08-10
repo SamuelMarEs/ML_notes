@@ -1,4 +1,4 @@
-El valor esperado puede verse como el "centro de masa" de una PDF sobre una [[Variable aleatoria]] $X$.
+El valor esperado puede verse como el "centro de masa" de una PDF sobre una [[VariableAleatoria|variable aleatoria]] $X$.
 
 $$ E(X) = \sum_{k} x_k\, P(X = x_k). \qquad \to \text{para dist. discreta.} $$
 
@@ -10,7 +10,7 @@ Si tomo una muestra $X_j$ $n$ veces, y calculo la media, entonces tenemos que
 
 $$ \bar{X} = \frac{1}{n}\sum_{j=1}^{n} X_j \qquad \text{(media de la muestra)}. $$
 
-Esta media va a cumplir que $\displaystyle\lim_{n\to\infty} X \to \mu = E(X)$, lo que se conoce como la [[Ley de los grandes números]].
+Esta media va a cumplir que $\displaystyle\lim_{n\to\infty} X \to \mu = E(X)$, lo que se conoce como la [[LeyDeGrandesNumeros|ley de grandes números]].
 
 ### Definiciones
 
@@ -63,3 +63,5 @@ $$ = \int_{-\infty}^{\infty} g(x)\,f(x)\,dx. \qquad \to \text{dist. continua.} $
 **Ejemplo (propiedad 3):**
 
 $$ E(X^2) = \int_{-\infty}^{\infty} x^2\,f(x)\,dx. $$
+
+#probability #mean #calculus
