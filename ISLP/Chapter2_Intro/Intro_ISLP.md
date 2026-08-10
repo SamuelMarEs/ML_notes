@@ -29,7 +29,7 @@ In parametric methods, we assume $f$ to have a specific form, and we build from 
 A "*flexible*" method is one that can reproduce many shapes to estimate $f$, and an "*interpretable*" method is one that is better for inference, mostly because it is easier to understand.
 If a particular method is very flexible, it increases the risk of overfitting the data, and sometimes it is better to use a less flexible, but more interpretable method.
 The next graph shows how some methods are more flexible but gain interpretability, and vice-versa:
-![[Pasted image 20260809183555.png]]
+![[Accuracy_vs_Interpretability.png]]
 (Deep learning would be somewhere in the bottom right corner of the graph).
 
 ### Supervised vs Unsupervised Learning
