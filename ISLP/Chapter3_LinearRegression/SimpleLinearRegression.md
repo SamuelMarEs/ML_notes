@@ -47,7 +47,7 @@ $$
 	\end{align}
 $$
 To test the null hypothesis, we check that our estimate $\hat{\beta_{1}}$ is sufficiently far from $0$ such that $\beta_{1}$ can't be $0$. This depends on our $SE(\hat{\beta_{1}})$. The larger it is, the larger $\lvert \hat{\beta_{1}} \rvert$ must be in order to reject the null  hypothesis.
-In practice, what we do is compute a ***t-statistic***, defined as 
+In practice, what we do is compute a ***$t$-statistic***, defined as 
 $$
 	t=\frac{\hat{\beta_{1}}-\mu}{SE(\hat{\beta_{1}})}.
 $$

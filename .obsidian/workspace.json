@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2ade087c100a69f1",
+        "id": "03828815439d7793",
         "type": "tabs",
         "children": [
           {
-            "id": "eac6d4902a0f68db",
+            "id": "59f275af1b3c672d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "MultipleLinearRegression"
             }
           }
         ]
@@ -217,10 +221,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "eac6d4902a0f68db",
+  "active": "59f275af1b3c672d",
   "lastOpenFiles": [
     "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
+    "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
     "ISLP/ISLP.pdf",
+    "ISLP/Chapter3_LinearRegression/OLS.md",
     "Probabilidad/Varianza_DesviacionEstandar.md",
     "Probabilidad/Covarianza_Correlacion.md",
     "Estadística/MuestrasAleatorias.md",
@@ -245,8 +251,6 @@
     "Probabilidad/EventosIndependientes.md",
     "Probabilidad/DistribucionNormal.md",
     "Probabilidad/DistribucionPoisson.md",
-    "Probabilidad/DistribucionGeometrica.md",
-    "Probabilidad/DistribucionGamma.md",
     "ISLP.pdf"
   ]
 }
