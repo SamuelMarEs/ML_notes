@@ -40,4 +40,4 @@ The following are some problems that might appear when working with a linear mod
 6. Collinearity: ***collinearity*** refers to the situation where two ro more predictors are closely related. This can make it difficult to separate the individual effect of each predictor on the response. There's also ***multicollinearity***, which is when more than two predictors show a strong relation, but there's no strong relation when looking at them in pairs.
    Some solutions to this problem include dropping one of the variables, or combining them into a single predictor.
 
-#statistics #ISLP #variance #error
+#statistics #ISLP #variance #error #ML #regression

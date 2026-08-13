@@ -39,4 +39,4 @@ $$
 $$
 Note that for $n$ levels there's $n-1$ dummy variables, and the level without a dummy variable is called a baseline.
 
-#statistics #ISLP 
+#statistics #ISLP #ML #regression 

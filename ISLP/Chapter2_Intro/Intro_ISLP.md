@@ -45,6 +45,6 @@ Variables can be either *quantitative* or *qualitative*, and although the type o
 Some methods target one or the other, and there's some methods that work for both cases.
 
 
-#ISLP #statistics 
+#ISLP #statistics #ML
 
 

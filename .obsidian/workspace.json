@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a807ab057b460618",
+        "id": "a1de7f77cc85f58c",
         "type": "tabs",
         "children": [
           {
-            "id": "4d686abb65f3aafa",
+            "id": "2523c9736cccb835",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ISLP/Chapter3_LinearRegression/ExtraConsiderations.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "ExtraConsiderations"
+              "title": "New tab"
             }
           }
         ]
@@ -221,25 +217,32 @@
       "bases:Create new base": false
     }
   },
-  "active": "4d686abb65f3aafa",
+  "active": "2523c9736cccb835",
   "lastOpenFiles": [
-    "ISLP/ISLP.pdf",
+    "ISLP/Chapter4_Classification/LogisticRegression.md",
+    "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
+    "ISLP/Chapter3_LinearRegression/QualitativePredictors.md",
+    "Pasted image 20260813161606.png",
+    "Imagenes/LogisticFunction.png",
+    "Pasted image 20260813161546.png",
+    "ISLP/Chapter4_Classification/ClassificationOverview.md",
+    "Untitled.md",
     "ISLP/Chapter3_LinearRegression/OLS.md",
+    "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
     "ISLP/Chapter3_LinearRegression/ExtraConsiderations.md",
+    "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
+    "ISLP/Chapter2_Intro/ClassificationSetting.md",
+    "ISLP/Chapter2_Intro/Inference.md",
+    "ISLP/Chapter2_Intro/Prediction.md",
+    "ISLP/Chapter2_Intro/Intro_ISLP.md",
+    "ISLP/Chapter4_Classification",
+    "ISLP/ISLP.pdf",
     "Imagenes/Heteroscedasticity.png",
     "Pasted image 20260810200935.png",
-    "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
-    "ISLP/Chapter3_LinearRegression/QualitativePredictors.md",
-    "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
     "Probabilidad/Varianza_DesviacionEstandar.md",
     "Probabilidad/Covarianza_Correlacion.md",
     "Estadística/MuestrasAleatorias.md",
-    "ISLP/Chapter2_Intro/Prediction.md",
-    "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
-    "ISLP/Chapter2_Intro/ClassificationSetting.md",
     "ISLP/Chapter4_Classification",
-    "ISLP/Chapter2_Intro/Inference.md",
-    "ISLP/Chapter2_Intro/Intro_ISLP.md",
     "Imagenes/Accuracy_vs_Interpretability.png",
     "Probabilidad/ValorEsperado.md",
     "Probabilidad/VariableAleatoriaBernoulliBinomial.md",
@@ -250,9 +253,6 @@
     "Probabilidad/ProbabilidadCondicional.md",
     "Probabilidad/LeyDeGrandesNumeros.md",
     "Probabilidad/FunciónGeneradoraDeMomentos.md",
-    "Probabilidad/FuncionesDeVariableAleatoria.md",
-    "Probabilidad/FormulaDeSumaDeColas.md",
-    "Probabilidad/EventosIndependientes.md",
     "ISLP.pdf"
   ]
 }

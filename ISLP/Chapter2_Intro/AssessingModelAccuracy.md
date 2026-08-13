@@ -30,4 +30,4 @@ So, we can see that a flexible method might reduce the bias, but increase the va
 
 
 
-#ISLP #statistics #error #mean #variance
+#ISLP #statistics #error #mean #variance #ML

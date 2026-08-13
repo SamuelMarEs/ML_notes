@@ -75,4 +75,4 @@ $$
 $$
 
 
-#statistics #ISLP #mean #error #variance #probability
+#statistics #ISLP #mean #error #variance #probability #ML #regression 

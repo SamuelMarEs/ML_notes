@@ -20,4 +20,4 @@ In theory, this is the best classifier. But in reality, we don´t know the condi
 
 Both regression and classification problems share that there's no real strong relationship between training and test error, which is why there's he concept of the *bias-variance tradeoff*.
 
-#statistics #error #mean #probability
+#statistics #error #mean #probability #classification

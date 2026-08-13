@@ -64,4 +64,4 @@ Once we have our model, we can predict $Y$ on the basis of a set of predictors $
 One important property is that $[a,b]\subset[c,d]$.
 
 
-#statistics #ISLP #error 
+#statistics #ISLP #error #ML #regression 

@@ -15,4 +15,4 @@ $$
 $$
 Since we assume $\hat{f}$ and $X$ fixed (constant), and $\epsilon$ is our random variable with mean zero ($E(\epsilon)=0$), we can use the properties of the [[ValorEsperado|expected value]], and the [[Varianza_DesviacionEstandar|variance]] to easily show that the equation above holds true. The term $Var(\epsilon)$ is called the irreducible error.
 
-#ISLP #statistics #mean #variance #error 
+#ISLP #statistics #mean #variance #error #ML
