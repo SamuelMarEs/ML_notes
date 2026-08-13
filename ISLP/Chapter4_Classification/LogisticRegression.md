@@ -6,7 +6,7 @@ $$
 which we abbreviate $p(X)$, and will range between 0 and 1. Then, given a particular $x\in X$, we can give a prediction for $Y$ given $p(x)$.
 
 ### The Logistic Model
-How sould one model the relationship between $p(X)=P(Y=1|X)$ and $X$? If we were to try to fit a linear model of the form $p(X)=\beta_{0}+\beta_{1}X$, we would have values for $p(X)$ outside of the range $[0,1]$. To avoid this, we have to use a function that gives outputs between 0 and 1 for all values of $X$. In logistic regression, we use the ***logistic function***, 
+How should we model the relationship between $p(X)=P(Y=1|X)$ and $X$? If we were to try to fit a linear model of the form $p(X)=\beta_{0}+\beta_{1}X$, we would have values for $p(X)$ outside of the range $[0,1]$. To avoid this, we have to use a function that gives outputs between 0 and 1 for all values of $X$. In logistic regression, we use the ***logistic function***, 
 $$
 	p(X)=\frac{e^{ \beta_{0}+\beta_{1}X }}{1
 	+ e^{ \beta_{0}+\beta_{1}X }}.
@@ -25,7 +25,7 @@ $$
 $$
 The left-hand side is called the ***log odds*** or *logit*. Thus, we see that the logistic regression model has a logit that is linear in $X$.
 
-Aditionaly, we can use the same approach of dummy variables as in the linear regression setting to work with [[QualitativePredictors|qualitative predictors]].
+Additionally, we can use the same approach of dummy variables as in the linear regression setting to work with [[QualitativePredictors|qualitative predictors]].
 
 ### Estimating the Regression Coefficients
 In order to estimate $\beta_{0}$ and $\beta_{1}$ based on the available training data, the most general method used is the method of *maximum likelihood*. The basic intuition behind using maximum likelihood is as follows: we seek estimate for $\beta_{0}$ and $\beta_{1}$ such that the predicted probability $\hat{p}(x_{i})$  corresponds as closely as possible to the actual category of $x_{i}$. In other words, we want to find $\hat{\beta_{0}}$ and $\hat{\beta_{1}}$ such that $p(X)$ yields a number close to one for all $x_{i}$'s who's category is labeled *Yes* (or 1). This is formalized using what's called a ***likelihood function***: 
