@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1de7f77cc85f58c",
+        "id": "77c425604bee77d4",
         "type": "tabs",
         "children": [
           {
-            "id": "2523c9736cccb835",
+            "id": "2655419e50123c4f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "113862d1325c49bd",
@@ -204,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,8 +219,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "2523c9736cccb835",
+  "active": "2655419e50123c4f",
   "lastOpenFiles": [
+    "ISLP/Chapter4_Classification/GenerativeModels_Intro.md",
+    "ISLP/Chapter4_Classification/LinearDiscriminantAnalysis.md",
+    "ISLP/ISLP.pdf",
     "ISLP/Chapter4_Classification/LogisticRegression.md",
     "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
     "ISLP/Chapter3_LinearRegression/QualitativePredictors.md",
@@ -226,7 +231,6 @@
     "Imagenes/LogisticFunction.png",
     "Pasted image 20260813161546.png",
     "ISLP/Chapter4_Classification/ClassificationOverview.md",
-    "Untitled.md",
     "ISLP/Chapter3_LinearRegression/OLS.md",
     "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
     "ISLP/Chapter3_LinearRegression/ExtraConsiderations.md",
@@ -236,7 +240,6 @@
     "ISLP/Chapter2_Intro/Prediction.md",
     "ISLP/Chapter2_Intro/Intro_ISLP.md",
     "ISLP/Chapter4_Classification",
-    "ISLP/ISLP.pdf",
     "Imagenes/Heteroscedasticity.png",
     "Pasted image 20260810200935.png",
     "Probabilidad/Varianza_DesviacionEstandar.md",
