@@ -6,7 +6,7 @@ Some reasons why we do this instead of just using logistic regression are:
 - If the distribution of the predictors $X$ is approximately normal in each of the classes and the sample size is small, then some approaches may be more accurate than logistic regression.
 - The methods in this section can be naturally extended to more than two response classes.
 
-Suppose that we wish to classify an observation into one of $K$ classes with $K\geq 2$. Let $\pi_{k}$ represent the overall or *prior* probability that a randomly chosen observation comes from the $k$-th. Let $f_{k}(X)\equiv P(X|Y=k)$ denote the *density function* of $X$ for an observation that comes from the $k$-th class. In other words, $f_{k}(x)$ is relatively large if there is a high probability that an observation in the $k$-th class has $X\approx x$. Then [[TeoremaBayes|Bayes' theorem]] states that 
+Suppose that we wish to classify an observation into one of $K$ classes with $K\geq 2$. Let $\pi_{k}$ represent the overall or *prior* probability that a randomly chosen observation comes from the $k$-th (that is, $\pi_{k}=P(Y=k)$). Let $f_{k}(X)\equiv P(X|Y=k)$ denote the *density function* of $X$ for an observation that comes from the $k$-th class. In other words, $f_{k}(x)$ is relatively large if there is a high probability that an observation in the $k$-th class has $X\approx x$. Then [[TeoremaBayes|Bayes' theorem]] states that 
 $$
 	P(Y=k|X=x)=\frac{\pi_{k}f_{k}(x)}{\sum_{l=1}^{K}\pi_{l}f_{l}(x)}.
 $$
