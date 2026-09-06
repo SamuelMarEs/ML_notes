@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf9e21f91aa31940",
+        "id": "320e119c88ca442e",
         "type": "tabs",
         "children": [
           {
-            "id": "664daac1f396e317",
+            "id": "98fb6427541ce616",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ISLP/Chapter4_Classification/QuadraticDiscriminantAnalysis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "QuadraticDiscriminantAnalysis"
             }
           }
         ]
@@ -218,11 +222,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "664daac1f396e317",
+  "active": "98fb6427541ce616",
   "lastOpenFiles": [
     "ISLP/Chapter4_Classification/GenerativeModels_Intro.md",
-    "ISLP/Chapter3_LinearRegression/OLS.md",
+    "ISLP/Chapter4_Classification/QuadraticDiscriminantAnalysis.md",
     "ISLP/Chapter4_Classification/LinearDiscriminantAnalysis.md",
+    "ISLP/Chapter2_Intro/ClassificationSetting.md",
+    "ISLP/Chapter3_LinearRegression/OLS.md",
     "ISLP/Chapter4_Classification/LogisticRegression.md",
     "ISLP/ISLP.pdf",
     "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
@@ -234,7 +240,6 @@
     "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
     "ISLP/Chapter3_LinearRegression/ExtraConsiderations.md",
     "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
-    "ISLP/Chapter2_Intro/ClassificationSetting.md",
     "ISLP/Chapter2_Intro/Inference.md",
     "ISLP/Chapter2_Intro/Prediction.md",
     "ISLP/Chapter2_Intro/Intro_ISLP.md",
@@ -254,7 +259,6 @@
     "Probabilidad/ProbabilidadConjunta.md",
     "Probabilidad/ProbabilidadCondicional.md",
     "Probabilidad/LeyDeGrandesNumeros.md",
-    "Probabilidad/FunciónGeneradoraDeMomentos.md",
     "ISLP.pdf"
   ]
 }
