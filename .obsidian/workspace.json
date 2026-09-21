@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISLP/Chapter4_Classification/QuadraticDiscriminantAnalysis.md",
+                "file": "ISLP/Chapter4_Classification/NaiveBayes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QuadraticDiscriminantAnalysis"
+              "title": "NaiveBayes"
             }
           }
         ]
@@ -224,10 +224,13 @@
   },
   "active": "98fb6427541ce616",
   "lastOpenFiles": [
-    "ISLP/Chapter4_Classification/GenerativeModels_Intro.md",
-    "ISLP/Chapter4_Classification/QuadraticDiscriminantAnalysis.md",
     "ISLP/Chapter4_Classification/LinearDiscriminantAnalysis.md",
+    "ISLP/Chapter4_Classification/QuadraticDiscriminantAnalysis.md",
+    "ISLP/Chapter4_Classification/NaiveBayes.md",
+    "ISLP/Chapter4_Classification/GenerativeModels_Intro.md",
+    "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
     "ISLP/Chapter2_Intro/ClassificationSetting.md",
+    "ISLP/Chapter4_Classification/ClassificationOverview.md",
     "ISLP/Chapter3_LinearRegression/OLS.md",
     "ISLP/Chapter4_Classification/LogisticRegression.md",
     "ISLP/ISLP.pdf",
@@ -236,10 +239,8 @@
     "Pasted image 20260813161606.png",
     "Imagenes/LogisticFunction.png",
     "Pasted image 20260813161546.png",
-    "ISLP/Chapter4_Classification/ClassificationOverview.md",
     "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
     "ISLP/Chapter3_LinearRegression/ExtraConsiderations.md",
-    "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
     "ISLP/Chapter2_Intro/Inference.md",
     "ISLP/Chapter2_Intro/Prediction.md",
     "ISLP/Chapter2_Intro/Intro_ISLP.md",
@@ -258,7 +259,6 @@
     "Probabilidad/TeoremaBayes.md",
     "Probabilidad/ProbabilidadConjunta.md",
     "Probabilidad/ProbabilidadCondicional.md",
-    "Probabilidad/LeyDeGrandesNumeros.md",
     "ISLP.pdf"
   ]
 }
