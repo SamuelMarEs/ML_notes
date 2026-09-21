@@ -1,3 +1,4 @@
+#ISLP #statistics #classification #probability #mean #variance #ML
 ### for $p=1$
 First let's assume that $p=1$, that is, we have only one predictor. We will obtain an estimate for $f_{k}(x)$ that we can use to estimate $p_{k}(x)$. Then we will classify an observation to the class for which $p_{k}(x)$ is greatest. 
 First, we assume that $f_{k}(x)$ is [[DistribucionNormal|normal or Gaussian]]. In the one-dimensional case, the normal density takes the form 
@@ -73,7 +74,7 @@ $$
 So, now our linear discriminant analysis will assume that the observations in the $k$-th class are drawn from a multivariate Gaussian $\mathcal{N}(\mu_{k},\Sigma)$. 
 By performing some algebra on $p_{k}(x)$ in a similar way as with the $p=1$ case, can reach our discriminant function 
 $$
-	\delta_{k}(x)=x^{T}\Sigma ^{-1}\mu_{k}-\frac{1}{2}\mu_{k}T\Sigma ^{-1}\mu_{k}+\ln(\pi_{k}),
+	\delta_{k}(x)=x^{T}\Sigma ^{-1}\mu_{k}-\frac{1}{2}\mu_{k}^{T}\Sigma ^{-1}\mu_{k}+\ln(\pi_{k}),
 $$
 just that in this case we are treating with a vector/matrix version of the discriminant.
 The Bayes decision boundaries is the set for which $\delta_{k}(x)=\delta_{\ell}(x)$, i.e. 
@@ -82,5 +83,3 @@ $$
 $$
 assuming that $\pi_{k}=\pi_{\ell}$. There will be as many decision boundaries as there are pairs of classes.
 
-
-#ISLP #statistics #classification #probability 
