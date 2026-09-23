@@ -224,9 +224,10 @@
   },
   "active": "98fb6427541ce616",
   "lastOpenFiles": [
+    "Probabilidad/DistribucionPoisson.md",
+    "ISLP/Chapter4_Classification/NaiveBayes.md",
     "ISLP/Chapter4_Classification/LinearDiscriminantAnalysis.md",
     "ISLP/Chapter4_Classification/QuadraticDiscriminantAnalysis.md",
-    "ISLP/Chapter4_Classification/NaiveBayes.md",
     "ISLP/Chapter4_Classification/GenerativeModels_Intro.md",
     "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
     "ISLP/Chapter2_Intro/ClassificationSetting.md",
@@ -258,7 +259,6 @@
     "Probabilidad/TeoremaLimiteCentral.md",
     "Probabilidad/TeoremaBayes.md",
     "Probabilidad/ProbabilidadConjunta.md",
-    "Probabilidad/ProbabilidadCondicional.md",
     "ISLP.pdf"
   ]
 }
