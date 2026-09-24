@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GradientDescent.md",
+                "file": "BatchGradientDescent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GradientDescent"
+              "title": "BatchGradientDescent"
             }
           }
         ]
@@ -101,8 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "113862d1325c49bd",
@@ -225,8 +224,11 @@
   },
   "active": "71f6ffd169a93973",
   "lastOpenFiles": [
-    "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
+    "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
+    "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
+    "BatchGradientDescent.md",
     "GradientDescent.md",
+    "ISLP/Chapter2_Intro/AssessingModelAccuracy.md",
     "ISLP/Chapter4_Classification/NaiveBayes.md",
     "Probabilidad/DistribucionPoisson.md",
     "ISLP/Chapter4_Classification/LinearDiscriminantAnalysis.md",
@@ -237,12 +239,10 @@
     "ISLP/Chapter3_LinearRegression/OLS.md",
     "ISLP/Chapter4_Classification/LogisticRegression.md",
     "ISLP/ISLP.pdf",
-    "ISLP/Chapter3_LinearRegression/SimpleLinearRegression.md",
     "ISLP/Chapter3_LinearRegression/QualitativePredictors.md",
     "Pasted image 20260813161606.png",
     "Imagenes/LogisticFunction.png",
     "Pasted image 20260813161546.png",
-    "ISLP/Chapter3_LinearRegression/MultipleLinearRegression.md",
     "ISLP/Chapter3_LinearRegression/ExtraConsiderations.md",
     "ISLP/Chapter2_Intro/Inference.md",
     "ISLP/Chapter2_Intro/Prediction.md",
@@ -259,7 +259,6 @@
     "Probabilidad/VariableAleatoriaBernoulliBinomial.md",
     "Probabilidad/VariableAleatoria.md",
     "Probabilidad/TeoremaLimiteCentral.md",
-    "Probabilidad/TeoremaBayes.md",
     "ISLP.pdf"
   ]
 }
